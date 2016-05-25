@@ -10,9 +10,9 @@ echo "Enter IP address : "
 read D_IP
 
 # Send script to remote device
-scp dumper.sh $D_user@$D_IP:~
+scp dumper2.0.sh $D_user@$D_IP:~
 
 # ssh to the device and start the script
 ssh $D_user@$D_IP
-./dumper.sh
+./dumper2.0.sh
 
