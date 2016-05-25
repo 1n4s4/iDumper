@@ -2,7 +2,8 @@
 Shell script that 'collects' sensitive information from the system (iOS)
 
 # Install:
--  Just send the script to the target device, it has to be jailbroken and with keychain_dumper installed on it.
+- The target device has to be jailbroken, with openssh and keychain_dumper installed on it.
+- The script uses ssh and scp to connect and transfer data between pc/mac and the device.
 
 # Usage:
 - Run 'dumper.sh' in the target device, it will automatically dump all the credentials and databases to a temporary folder, when done, it will ask you for username and password of your computer to send the dumped data to it.
